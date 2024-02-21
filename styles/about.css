@@ -1,0 +1,105 @@
+body{
+    margin: 10px;
+}
+
+header{
+    background-color: #FEECE2;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #FFBE98;
+}
+
+span a{
+    text-decoration: none;
+}
+
+span{
+    margin: 20px;
+}
+
+body header div:first-child div:first-child span a{
+    color: #9195F6;
+    font-size: 30px;
+    font-weight: 30px;
+    /* font-weight: bolder; */
+}
+
+body header div:first-child div:first-child{
+    padding: 10px;
+}
+
+body header div span:first-child a{
+    color: darkcyan;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+body header div span:last-child a{
+    font-size: 30px;
+    color: #A3C9AA;
+}
+
+main div{
+    padding: 10px; 
+    margin: 10px;
+    background-color: #F5EEE6;
+}
+
+main div div:first-child{
+    width: 40%;
+    background-color: yellow;
+    margin: 20px auto;
+}
+
+main div div:first-child p{
+    font-size: 25px;
+    color: darkmagenta;
+}
+
+main div div:nth-child(2) {
+    width: 80%;
+    margin: 10px auto;
+    background-color: #9195F6;
+}
+
+main div div:nth-child(2) h1{
+    width: 30%;
+    margin: 10px auto;
+    color: darkred;
+}
+
+main div div:nth-child(2) p{
+    width: 90%;
+    margin: 10px auto;
+    color: darkblue;
+    font-size: 25px; 
+}
+
+main div>p {
+    color: rgb(156, 30, 156);
+    font-size: 24px;
+    margin: 20px auto;
+    width: 70%;
+}
+
+footer{
+    background-color: blue;
+    margin: 10px;
+    padding: 40px;
+}
+footer div{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(170, 3, 3);
+    padding: 20px;
+}
+
+footer div span{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+footer div span:nth-child(3){
+    color: green;
+    font-size: 40px;
+}

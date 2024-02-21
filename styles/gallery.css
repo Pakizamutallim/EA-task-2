@@ -1,0 +1,100 @@
+body{
+    margin: 10px;
+}
+
+header{
+    background-color: #FEECE2;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #FFBE98;
+}
+
+span a{
+    text-decoration: none;
+}
+
+span{
+    margin: 20px;
+}
+
+body header div:first-child div:first-child span a{
+    color: #9195F6;
+    font-size: 30px;
+    font-weight: 30px;
+    /* font-weight: bolder; */
+}
+
+body header div div:first-child{
+    padding: 10px;
+}
+
+body header div div:first-child span a{
+    color: darkcyan;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+body header div div:nth-child(2) span:first-child a{
+    font-size: 30px;
+    color: #A3C9AA;
+}
+
+body header div div:nth-child(2) span:last-child a{
+    font-size: 40px;
+    color: #2e9741;
+}
+
+body header div div:last-child span a{
+    font-size: 35px; 
+    color: saddlebrown;
+}
+
+main div{
+    padding: 10px; 
+    margin: 10px;
+    background-color: #F5EEE6;
+    width: 80%;
+    margin: auto;
+}
+main div img{
+    margin: 10px;
+}
+
+main div img:first-child{
+    width: 400px;
+    height: 300px;
+}
+
+main div img:nth-child(2){
+    width: 300px;
+    height: 200px;
+}
+
+main div img:last-child{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+footer{
+    background-color: blue;
+    margin: 10px;
+    padding: 40px;
+}
+footer div{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(170, 3, 3);
+    padding: 20px;
+}
+
+footer div span{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+footer div span:first-child{
+    color: green;
+    font-size: 40px;
+}
